@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: rgb(31, 61, 68);
+    color: rgb(20, 239, 218);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    padding: 40px 20px;
+    gap: 40px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(174, 22, 161);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(168, 246, 100);
+    background-color: rgb(78, 84, 53);
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(76, 41, 191, 0.3);
+    transition: all 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(203, 109, 27);
+    color: rgb(66, 161, 122);
+    transform: translate(-5px);
+    box-shadow: 0 8px 20px rgba(170, 168, 14, 0.4);
+}
+
+iframe {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(95, 34, 139, 0.6);
+    border: 3px solid rgb(114, 29, 29);
+    max-width: 100%;
+}
